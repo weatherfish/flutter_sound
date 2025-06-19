@@ -32,6 +32,7 @@ target 'Runner' do
   #use_frameworks! // Does not work with Flutter FFmpeg
   #use_modular_headers! // Does not work with Flutter FFmpeg
   use_frameworks!
+  use_modular_headers!
   pod 'ffmpeg-audio', :podspec => '../../ffmpeg-audio.podspec'
 
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
