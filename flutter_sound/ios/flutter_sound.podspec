@@ -11,6 +11,9 @@ Flutter plugin that relates to sound like audio and recorder.
   s.homepage         = 'https://github.com/dooboolab/flutter_sound/flutter_sound'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Dooboolab' => 'dooboolab@gmail.com' }
+  s.source = { :git => "https://github.com/weatherfish/flutter_sound.git", :tag => "4.5" }
+  s.license = { :type => "MIT", :file => "LICENSE" }
+  s.description = "A complete flutter sound solution. (description should be longer and different from summary)"
 #   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
