@@ -3,14 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		5A06B3D3E4156A61B34216A3 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70340817E33B344B07DDA0F4 /* Pods_Runner.framework */; };
+		5D4894932E043D1700EC9828 /* lame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D48947B2E043D0100EC9828 /* lame.framework */; };
+		5D4894942E043D1700EC9828 /* libavcodec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D48947C2E043D0100EC9828 /* libavcodec.framework */; };
+		5D4894952E043D1700EC9828 /* libavdevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D48947D2E043D0100EC9828 /* libavdevice.framework */; };
+		5D4894962E043D1700EC9828 /* libavfilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D48947E2E043D0100EC9828 /* libavfilter.framework */; };
+		5D4894972E043D1700EC9828 /* libavformat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D48947F2E043D0100EC9828 /* libavformat.framework */; };
+		5D4894982E043D1700EC9828 /* libavutil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4894802E043D0100EC9828 /* libavutil.framework */; };
+		5D4894992E043D1700EC9828 /* libilbc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4894812E043D0100EC9828 /* libilbc.framework */; };
+		5D48949A2E043D1700EC9828 /* libogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4894822E043D0100EC9828 /* libogg.framework */; };
+		5D48949B2E043D1700EC9828 /* libopencore-amrnb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4894832E043D0100EC9828 /* libopencore-amrnb.framework */; };
+		5D48949C2E043D1700EC9828 /* libsndfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4894842E043D0100EC9828 /* libsndfile.framework */; };
+		5D48949D2E043D1700EC9828 /* libswresample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4894852E043D0100EC9828 /* libswresample.framework */; };
+		5D48949E2E043D1700EC9828 /* libswscale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4894862E043D0100EC9828 /* libswscale.framework */; };
+		5D48949F2E043D1700EC9828 /* libvorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4894872E043D0100EC9828 /* libvorbis.framework */; };
+		5D4894A02E043D1700EC9828 /* libvorbisenc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4894882E043D0100EC9828 /* libvorbisenc.framework */; };
+		5D4894A12E043D1700EC9828 /* libvorbisfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4894892E043D0100EC9828 /* libvorbisfile.framework */; };
+		5D4894A22E043D1700EC9828 /* mobileffmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D48948A2E043D0100EC9828 /* mobileffmpeg.framework */; };
+		5D4894A32E043D1700EC9828 /* opus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D48948B2E043D0100EC9828 /* opus.framework */; };
+		5D4894A42E043D1700EC9828 /* shine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D48948C2E043D0100EC9828 /* shine.framework */; };
+		5D4894A52E043D1700EC9828 /* soxr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D48948D2E043D0100EC9828 /* soxr.framework */; };
+		5D4894A62E043D1700EC9828 /* speex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D48948E2E043D0100EC9828 /* speex.framework */; };
+		5D4894A72E043D1700EC9828 /* twolame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D48948F2E043D0100EC9828 /* twolame.framework */; };
+		5D4894A82E043D1700EC9828 /* vo-amrwbenc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4894902E043D0100EC9828 /* vo-amrwbenc.framework */; };
+		5D4894A92E043D1700EC9828 /* wavpack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4894912E043D0100EC9828 /* wavpack.framework */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
-		8A7CB6343B2466503067153B /* libPods-Runner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D5513D99F2579059486955 /* libPods-Runner.a */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
@@ -36,11 +59,34 @@
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		34BB50751279C63B4E4A4D40 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		5D48947B2E043D0100EC9828 /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lame.framework; sourceTree = "<group>"; };
+		5D48947C2E043D0100EC9828 /* libavcodec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavcodec.framework; sourceTree = "<group>"; };
+		5D48947D2E043D0100EC9828 /* libavdevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavdevice.framework; sourceTree = "<group>"; };
+		5D48947E2E043D0100EC9828 /* libavfilter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavfilter.framework; sourceTree = "<group>"; };
+		5D48947F2E043D0100EC9828 /* libavformat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavformat.framework; sourceTree = "<group>"; };
+		5D4894802E043D0100EC9828 /* libavutil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavutil.framework; sourceTree = "<group>"; };
+		5D4894812E043D0100EC9828 /* libilbc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libilbc.framework; sourceTree = "<group>"; };
+		5D4894822E043D0100EC9828 /* libogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libogg.framework; sourceTree = "<group>"; };
+		5D4894832E043D0100EC9828 /* libopencore-amrnb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "libopencore-amrnb.framework"; sourceTree = "<group>"; };
+		5D4894842E043D0100EC9828 /* libsndfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libsndfile.framework; sourceTree = "<group>"; };
+		5D4894852E043D0100EC9828 /* libswresample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswresample.framework; sourceTree = "<group>"; };
+		5D4894862E043D0100EC9828 /* libswscale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswscale.framework; sourceTree = "<group>"; };
+		5D4894872E043D0100EC9828 /* libvorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvorbis.framework; sourceTree = "<group>"; };
+		5D4894882E043D0100EC9828 /* libvorbisenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvorbisenc.framework; sourceTree = "<group>"; };
+		5D4894892E043D0100EC9828 /* libvorbisfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvorbisfile.framework; sourceTree = "<group>"; };
+		5D48948A2E043D0100EC9828 /* mobileffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mobileffmpeg.framework; sourceTree = "<group>"; };
+		5D48948B2E043D0100EC9828 /* opus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opus.framework; sourceTree = "<group>"; };
+		5D48948C2E043D0100EC9828 /* shine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = shine.framework; sourceTree = "<group>"; };
+		5D48948D2E043D0100EC9828 /* soxr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = soxr.framework; sourceTree = "<group>"; };
+		5D48948E2E043D0100EC9828 /* speex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = speex.framework; sourceTree = "<group>"; };
+		5D48948F2E043D0100EC9828 /* twolame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = twolame.framework; sourceTree = "<group>"; };
+		5D4894902E043D0100EC9828 /* vo-amrwbenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "vo-amrwbenc.framework"; sourceTree = "<group>"; };
+		5D4894912E043D0100EC9828 /* wavpack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = wavpack.framework; sourceTree = "<group>"; };
+		70340817E33B344B07DDA0F4 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75C6CB5EF12606A585C3365C /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
-		81D5513D99F2579059486955 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
 		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
 		97C146EE1CF9000F007C117D /* Flutter Sound Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flutter Sound Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,7 +102,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A7CB6343B2466503067153B /* libPods-Runner.a in Frameworks */,
+				5D4894932E043D1700EC9828 /* lame.framework in Frameworks */,
+				5D4894942E043D1700EC9828 /* libavcodec.framework in Frameworks */,
+				5D4894952E043D1700EC9828 /* libavdevice.framework in Frameworks */,
+				5D4894962E043D1700EC9828 /* libavfilter.framework in Frameworks */,
+				5D4894972E043D1700EC9828 /* libavformat.framework in Frameworks */,
+				5D4894982E043D1700EC9828 /* libavutil.framework in Frameworks */,
+				5D4894992E043D1700EC9828 /* libilbc.framework in Frameworks */,
+				5D48949A2E043D1700EC9828 /* libogg.framework in Frameworks */,
+				5D48949B2E043D1700EC9828 /* libopencore-amrnb.framework in Frameworks */,
+				5D48949C2E043D1700EC9828 /* libsndfile.framework in Frameworks */,
+				5D48949D2E043D1700EC9828 /* libswresample.framework in Frameworks */,
+				5D48949E2E043D1700EC9828 /* libswscale.framework in Frameworks */,
+				5D48949F2E043D1700EC9828 /* libvorbis.framework in Frameworks */,
+				5D4894A02E043D1700EC9828 /* libvorbisenc.framework in Frameworks */,
+				5D4894A12E043D1700EC9828 /* libvorbisfile.framework in Frameworks */,
+				5D4894A22E043D1700EC9828 /* mobileffmpeg.framework in Frameworks */,
+				5D4894A32E043D1700EC9828 /* opus.framework in Frameworks */,
+				5D4894A42E043D1700EC9828 /* shine.framework in Frameworks */,
+				5D4894A52E043D1700EC9828 /* soxr.framework in Frameworks */,
+				5D4894A62E043D1700EC9828 /* speex.framework in Frameworks */,
+				5D4894A72E043D1700EC9828 /* twolame.framework in Frameworks */,
+				5D4894A82E043D1700EC9828 /* vo-amrwbenc.framework in Frameworks */,
+				5D4894A92E043D1700EC9828 /* wavpack.framework in Frameworks */,
+				5A06B3D3E4156A61B34216A3 /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,10 +142,42 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5D4894922E043D0100EC9828 /* ffmpeg-audio */ = {
+			isa = PBXGroup;
+			children = (
+				5D48947B2E043D0100EC9828 /* lame.framework */,
+				5D48947C2E043D0100EC9828 /* libavcodec.framework */,
+				5D48947D2E043D0100EC9828 /* libavdevice.framework */,
+				5D48947E2E043D0100EC9828 /* libavfilter.framework */,
+				5D48947F2E043D0100EC9828 /* libavformat.framework */,
+				5D4894802E043D0100EC9828 /* libavutil.framework */,
+				5D4894812E043D0100EC9828 /* libilbc.framework */,
+				5D4894822E043D0100EC9828 /* libogg.framework */,
+				5D4894832E043D0100EC9828 /* libopencore-amrnb.framework */,
+				5D4894842E043D0100EC9828 /* libsndfile.framework */,
+				5D4894852E043D0100EC9828 /* libswresample.framework */,
+				5D4894862E043D0100EC9828 /* libswscale.framework */,
+				5D4894872E043D0100EC9828 /* libvorbis.framework */,
+				5D4894882E043D0100EC9828 /* libvorbisenc.framework */,
+				5D4894892E043D0100EC9828 /* libvorbisfile.framework */,
+				5D48948A2E043D0100EC9828 /* mobileffmpeg.framework */,
+				5D48948B2E043D0100EC9828 /* opus.framework */,
+				5D48948C2E043D0100EC9828 /* shine.framework */,
+				5D48948D2E043D0100EC9828 /* soxr.framework */,
+				5D48948E2E043D0100EC9828 /* speex.framework */,
+				5D48948F2E043D0100EC9828 /* twolame.framework */,
+				5D4894902E043D0100EC9828 /* vo-amrwbenc.framework */,
+				5D4894912E043D0100EC9828 /* wavpack.framework */,
+			);
+			name = "ffmpeg-audio";
+			path = "Pods/ffmpeg-audio";
+			sourceTree = "<group>";
+		};
 		5F952475EF8A852D600D6FFD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				81D5513D99F2579059486955 /* libPods-Runner.a */,
+				5D4894922E043D0100EC9828 /* ffmpeg-audio */,
+				70340817E33B344B07DDA0F4 /* Pods_Runner.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -149,6 +250,7 @@
 				97C146EC1CF9000F007C117D /* Resources */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
+				89C7B90EE34D4308B08C8FF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,7 +267,7 @@
 		97C146E61CF9000F007C117D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1510;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					97C146ED1CF9000F007C117D = {
@@ -210,10 +312,12 @@
 /* Begin PBXShellScriptBuildPhase section */
 		3B06AD1E1E4923F5004D2608 /* Thin Binary */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}",
 			);
 			name = "Thin Binary";
 			outputPaths = (
@@ -222,8 +326,26 @@
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin\n";
 		};
+		89C7B90EE34D4308B08C8FF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9740EEB61CF901F6004384FC /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -413,12 +535,13 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = VC3TGXH668;
+				DEVELOPMENT_TEAM = X743XTZ8CL;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = i386;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
+					"$(PROJECT_DIR)/Pods/ffmpeg-audio",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,12 +582,13 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = VC3TGXH668;
+				DEVELOPMENT_TEAM = X743XTZ8CL;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = i386;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
+					"$(PROJECT_DIR)/Pods/ffmpeg-audio",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
