@@ -9,6 +9,16 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '10.0'
 
   s.source           = { :http => 'https://github.com/weatherfish/mobile-ffmpeg/releases/download/v4.4.LTS/ffmpeg-audio.zip' }
+  s.source_files = [
+    'mobileffmpeg.framework/Headers/*.h',
+    'libavcodec.framework/Headers/*.h',
+    'libavdevice.framework/Headers/*.h',
+    'libavfilter.framework/Headers/*.h',
+    'libavformat.framework/Headers/*.h',
+    'libavutil.framework/Headers/*.h',
+    'libswresample.framework/Headers/*.h',
+    'libswscale.framework/Headers/*.h',
+  ]
   s.ios.vendored_frameworks = [
     "mobileffmpeg.framework",
     "libavcodec.framework",
@@ -46,9 +56,10 @@ Pod::Spec.new do |s|
     'libswscale.framework/Headers/*.h',
   ]
 
-  s.header_dir = 'mobileffmpeg'
-  s.header_mappings_dir = '.'
+#   s.header_dir = 'mobileffmpeg'
+#   s.header_mappings_dir = '.'
+# s.module_map = false
   s.ios.frameworks   = 'AudioToolbox', 'CoreMedia', 'VideoToolbox'
   s.libraries        = 'z', 'bz2', 'c++', 'iconv'
-  s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/ffmpeg-audio/mobileffmpeg.framework'}
+#   s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/ffmpeg-audio/mobileffmpeg.framework'}
 end
